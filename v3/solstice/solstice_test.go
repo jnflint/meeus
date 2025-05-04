@@ -8,8 +8,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/solstice"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/solstice"
 	"github.com/soniakeys/unit"
 )
 

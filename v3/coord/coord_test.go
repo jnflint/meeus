@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/globe"
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/sidereal"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/globe"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/sidereal"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

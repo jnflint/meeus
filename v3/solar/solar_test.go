@@ -6,10 +6,10 @@ package solar_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/solar"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/solar"
+	sexa "github.com/soniakeys/sexagesimal"
 )
 
 func ExampleTrue() {

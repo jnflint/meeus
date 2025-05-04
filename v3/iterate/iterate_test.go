@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/soniakeys/meeus/v3/iterate"
+	"github.com/jnflint/meeus/v3/iterate"
 )
 
 func ExampleDecimalPlaces() {

@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package perihelion_test
@@ -9,9 +10,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/julian"
-	pa "github.com/soniakeys/meeus/v3/perihelion"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/julian"
+	pa "github.com/jnflint/meeus/v3/perihelion"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 )
 
 func TestJS2(t *testing.T) {

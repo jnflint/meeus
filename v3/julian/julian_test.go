@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soniakeys/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/julian"
 )
 
 func ExampleCalendarGregorianToJD_sputnik() {

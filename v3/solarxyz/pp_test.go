@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package solarxyz_test
@@ -8,8 +9,8 @@ package solarxyz_test
 import (
 	"fmt"
 
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/solarxyz"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/solarxyz"
 )
 
 func ExamplePosition() {

@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/nearparabolic"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/nearparabolic"
 )
 
 type tc struct {

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soniakeys/meeus/v3/julian"
-	pa "github.com/soniakeys/meeus/v3/perihelion"
+	"github.com/jnflint/meeus/v3/julian"
+	pa "github.com/jnflint/meeus/v3/perihelion"
 )
 
 func ExamplePerihelion() {

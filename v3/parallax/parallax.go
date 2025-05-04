@@ -7,8 +7,8 @@ package parallax
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/globe"
-	"github.com/soniakeys/meeus/v3/sidereal"
+	"github.com/jnflint/meeus/v3/globe"
+	"github.com/jnflint/meeus/v3/sidereal"
 	"github.com/soniakeys/unit"
 )
 

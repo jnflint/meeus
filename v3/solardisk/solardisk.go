@@ -7,16 +7,17 @@ package solardisk
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/nutation"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/solar"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/nutation"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/solar"
 	"github.com/soniakeys/unit"
 )
 
 // Ephemeris returns the apparent orientation of the sun at the given jd.
 //
 // Results:
+//
 //	P:  Position angle of the solar north pole.
 //	B0: Heliographic latitude of the center of the solar disk.
 //	L0: Heliographic longitude of the center of the solar disk.

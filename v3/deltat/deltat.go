@@ -8,6 +8,7 @@
 // ΔT = TD - UT.
 //
 // TD = "Dynamical Time", which is related to:
+//
 //	ET "Ephermis Time", an older term.
 //	TDB "Barycentric Dynamical Time", very close to TD.
 //	TDT "Terrestrial Dynamical Time", a more correct term.
@@ -20,9 +21,9 @@
 package deltat
 
 import (
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/interp"
-	"github.com/soniakeys/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/interp"
+	"github.com/jnflint/meeus/v3/julian"
 	"github.com/soniakeys/unit"
 )
 

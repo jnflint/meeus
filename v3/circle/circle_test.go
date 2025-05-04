@@ -6,8 +6,8 @@ package circle_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/circle"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/circle"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package jupiter_test
@@ -8,8 +9,8 @@ package jupiter_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/jupiter"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/jupiter"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 )
 
 func ExamplePhysical() {

@@ -7,7 +7,7 @@ package parabolic
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/base"
 	"github.com/soniakeys/unit"
 )
 

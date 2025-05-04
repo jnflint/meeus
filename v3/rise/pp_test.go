@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package rise_test
@@ -9,14 +10,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/soniakeys/meeus/v3/deltat"
-	"github.com/soniakeys/meeus/v3/elliptic"
-	"github.com/soniakeys/meeus/v3/globe"
-	"github.com/soniakeys/meeus/v3/julian"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/rise"
-	"github.com/soniakeys/meeus/v3/sidereal"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/deltat"
+	"github.com/jnflint/meeus/v3/elliptic"
+	"github.com/jnflint/meeus/v3/globe"
+	"github.com/jnflint/meeus/v3/julian"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/rise"
+	"github.com/jnflint/meeus/v3/sidereal"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

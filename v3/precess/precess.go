@@ -13,7 +13,7 @@
 // It's a fair amount of code and data, representing significant chances for
 // errors.  And precession from FK4 would seem to be of little interest today.
 //
-// Proper motion units
+// # Proper motion units
 //
 // Meeus gives some example annual proper motions in units of seconds of
 // right ascension and seconds of declination.  To make units clear,
@@ -42,10 +42,10 @@ package precess
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/elementequinox"
-	"github.com/soniakeys/meeus/v3/nutation"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/elementequinox"
+	"github.com/jnflint/meeus/v3/nutation"
 	"github.com/soniakeys/unit"
 )
 

@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/fit"
+	"github.com/jnflint/meeus/v3/fit"
 )
 
 func ExampleLinear() {

@@ -7,8 +7,8 @@ package sidereal
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/nutation"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/nutation"
 	"github.com/soniakeys/unit"
 )
 

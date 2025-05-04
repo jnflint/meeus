@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/julian"
-	pe "github.com/soniakeys/meeus/v3/planetelements"
+	"github.com/jnflint/meeus/v3/julian"
+	pe "github.com/jnflint/meeus/v3/planetelements"
 )
 
 func ExampleMean() {

@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package saturnmoons_test
@@ -8,8 +9,8 @@ package saturnmoons_test
 import (
 	"fmt"
 
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/saturnmoons"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/saturnmoons"
 )
 
 func ExamplePositions() {

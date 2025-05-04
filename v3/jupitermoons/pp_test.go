@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package jupitermoons_test
@@ -8,11 +9,11 @@ package jupitermoons_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/deltat"
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/jupitermoons"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/deltat"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/jupitermoons"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

@@ -7,15 +7,16 @@ package jupiter
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/nutation"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/nutation"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 	"github.com/soniakeys/unit"
 )
 
 // Physical computes quantities for physical observations of Jupiter.
 //
 // Results:
+//
 //	DS  Planetocentric declination of the Sun.
 //	DE  Planetocentric declination of the Earth.
 //	ω1  Longitude of the System I central meridian of the illuminated disk,
@@ -126,6 +127,7 @@ func Physical(jde float64, earth, jupiter *pp.V87Planet) (DS, DE, ω1, ω2, P un
 // Results are less accurate than with Physical().
 //
 // Results:
+//
 //	DS  Planetocentric declination of the Sun.
 //	DE  Planetocentric declination of the Earth.
 //	ω1  Longitude of the System I central meridian of the illuminated disk,

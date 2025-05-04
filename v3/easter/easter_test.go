@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/soniakeys/meeus/v3/easter"
+	"github.com/jnflint/meeus/v3/easter"
 )
 
 func ExampleGregorian() {

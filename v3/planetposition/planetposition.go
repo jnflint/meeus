@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/precess"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/precess"
 	"github.com/soniakeys/unit"
 )
 
@@ -222,9 +222,9 @@ func (vt *V87Planet) Position2000(jde float64) (L, B unit.Angle, R float64) {
 // Results are positions consistent with those from Meeus's Apendix III,
 // that is, at equinox and ecliptic of date.
 //
-//  L is heliocentric longitude.
-//  B is heliocentric latitude.
-//  R is heliocentric range in AU.
+//	L is heliocentric longitude.
+//	B is heliocentric latitude.
+//	R is heliocentric range in AU.
 func (vt *V87Planet) Position(jde float64) (L, B unit.Angle, R float64) {
 	L, B, R = vt.Position2000(jde)
 	eclFrom := &coord.Ecliptic{

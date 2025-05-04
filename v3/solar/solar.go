@@ -19,10 +19,10 @@ package solar
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/nutation"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/nutation"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 	"github.com/soniakeys/unit"
 )
 
@@ -32,6 +32,7 @@ import (
 // See base.J2000Century.
 //
 // Results:
+//
 //	s = true geometric longitude, ☉
 //	ν = true anomaly
 func True(T float64) (s, ν unit.Angle) {
@@ -102,6 +103,7 @@ func node(T float64) unit.Angle {
 // Results are accurate to .01 degree for years 1900 to 2100.
 //
 // Results:
+//
 //	s = true geometric longitude, ☉
 //	ν = true anomaly
 func True2000(T float64) (s, ν unit.Angle) {
@@ -165,9 +167,9 @@ func TrueVSOP87(e *pp.V87Planet, jde float64) (s, β unit.Angle, R float64) {
 // Result computed by VSOP87, at equator and equinox of date in the FK5 frame,
 // and includes effects of nutation and aberration.
 //
-//  λ: ecliptic longitude
-//  β: ecliptic latitude
-//  R: range in AU
+//	λ: ecliptic longitude
+//	β: ecliptic latitude
+//	R: range in AU
 func ApparentVSOP87(e *pp.V87Planet, jde float64) (λ, β unit.Angle, R float64) {
 	// note: see duplicated code in ApparentEquatorialVSOP87.
 	s, β, R := TrueVSOP87(e, jde)

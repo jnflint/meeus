@@ -6,7 +6,7 @@ package pluto_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/pluto"
+	"github.com/jnflint/meeus/v3/pluto"
 )
 
 func ExampleHeliocentric() {

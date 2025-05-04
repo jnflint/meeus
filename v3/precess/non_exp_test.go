@@ -7,9 +7,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/nutation"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/nutation"
 	"github.com/soniakeys/unit"
 )
 

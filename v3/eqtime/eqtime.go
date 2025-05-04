@@ -7,11 +7,11 @@ package eqtime
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/nutation"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/solar"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/nutation"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/solar"
 	"github.com/soniakeys/unit"
 )
 

@@ -8,11 +8,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/moonillum"
-	"github.com/soniakeys/meeus/v3/moonposition"
-	"github.com/soniakeys/meeus/v3/solar"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/moonillum"
+	"github.com/jnflint/meeus/v3/moonposition"
+	"github.com/jnflint/meeus/v3/solar"
 	"github.com/soniakeys/unit"
 )
 

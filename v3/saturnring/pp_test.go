@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package saturnring_test
@@ -9,9 +10,9 @@ import (
 	"fmt"
 	"testing"
 
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/saturnring"
-	"github.com/soniakeys/sexagesimal"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/saturnring"
+	sexa "github.com/soniakeys/sexagesimal"
 )
 
 func ExampleRing() {

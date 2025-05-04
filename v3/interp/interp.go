@@ -3,7 +3,7 @@
 
 // Interp: Chapter 3, Interpolation.
 //
-// Len3 and Len5 types
+// # Len3 and Len5 types
 //
 // These types allow interpolation from a table of equidistant x values
 // and corresponding y values.  Since the x values are equidistant,
@@ -24,7 +24,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/base"
 )
 
 // Error values returned by functions and methods in this package.

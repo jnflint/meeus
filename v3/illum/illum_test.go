@@ -6,7 +6,7 @@ package illum_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/illum"
+	"github.com/jnflint/meeus/v3/illum"
 	"github.com/soniakeys/unit"
 )
 

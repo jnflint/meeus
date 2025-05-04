@@ -8,12 +8,12 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/julian"
-	"github.com/soniakeys/meeus/v3/moonposition"
-	"github.com/soniakeys/meeus/v3/parallax"
-	"github.com/soniakeys/meeus/v3/sidereal"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/moonposition"
+	"github.com/jnflint/meeus/v3/parallax"
+	"github.com/jnflint/meeus/v3/sidereal"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

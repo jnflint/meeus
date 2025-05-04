@@ -18,13 +18,13 @@ import (
 	"errors"
 	"math"
 
-	"github.com/soniakeys/meeus/v3/deltat"
-	"github.com/soniakeys/meeus/v3/elliptic"
-	"github.com/soniakeys/meeus/v3/globe"
-	"github.com/soniakeys/meeus/v3/interp"
-	"github.com/soniakeys/meeus/v3/julian"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/sidereal"
+	"github.com/jnflint/meeus/v3/deltat"
+	"github.com/jnflint/meeus/v3/elliptic"
+	"github.com/jnflint/meeus/v3/globe"
+	"github.com/jnflint/meeus/v3/interp"
+	"github.com/jnflint/meeus/v3/julian"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/sidereal"
 	"github.com/soniakeys/unit"
 )
 
@@ -161,10 +161,10 @@ func Times(p globe.Coord, ΔT unit.Time, h0 unit.Angle, Th0 unit.Time, α3 []uni
 // ApproxPlanet computes approximate UT rise, transit and set times for
 // a planet on a day of interest.
 //
-//  yr, mon, day are the Gregorian date.
-//  pos is geographic coordinates of observer.
-//  e must be a V87Planet object for Earth
-//  pl must be a V87Planet object for another planet.
+//	yr, mon, day are the Gregorian date.
+//	pos is geographic coordinates of observer.
+//	e must be a V87Planet object for Earth
+//	pl must be a V87Planet object for another planet.
 //
 // Obtain V87Planet objects with the planetposition package.
 //
@@ -178,10 +178,10 @@ func ApproxPlanet(yr, mon, day int, pos globe.Coord, e, pl *pp.V87Planet) (tRise
 // Planet computes UT rise, transit and set times for a planet on a day of
 // interest.
 //
-//  yr, mon, day are the Gregorian date.
-//  pos is geographic coordinates of observer.
-//  e must be a V87Planet object for Earth
-//  pl must be a V87Planet object for another planet.
+//	yr, mon, day are the Gregorian date.
+//	pos is geographic coordinates of observer.
+//	e must be a V87Planet object for Earth
+//	pl must be a V87Planet object for another planet.
 //
 // Obtain V87Planet objects with the planetposition package.
 //

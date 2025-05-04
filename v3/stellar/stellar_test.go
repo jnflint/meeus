@@ -6,7 +6,7 @@ package stellar_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/stellar"
+	"github.com/jnflint/meeus/v3/stellar"
 )
 
 func ExampleSum() {

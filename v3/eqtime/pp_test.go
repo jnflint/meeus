@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package eqtime_test
@@ -8,10 +9,10 @@ package eqtime_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/eqtime"
-	"github.com/soniakeys/meeus/v3/julian"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/eqtime"
+	"github.com/jnflint/meeus/v3/julian"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	sexa "github.com/soniakeys/sexagesimal"
 )
 
 func ExampleE() {

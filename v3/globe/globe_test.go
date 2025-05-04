@@ -8,8 +8,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/soniakeys/meeus/v3/globe"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/globe"
+	sexa "github.com/soniakeys/sexagesimal"
 	"github.com/soniakeys/unit"
 )
 

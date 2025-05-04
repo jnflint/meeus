@@ -22,8 +22,8 @@ package jm
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/julian"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/julian"
 )
 
 // JewishCalendar returns interesting dates and facts about a given year.
@@ -31,6 +31,7 @@ import (
 // Input is a Julian or Gregorian year.
 //
 // Outputs:
+//
 //	A:      Year number in the Jewish Calendar
 //	mP:     Month number of Pesach.
 //	dP:     Day number of Pesach.

@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package pluto_test
@@ -8,9 +9,9 @@ package pluto_test
 import (
 	"fmt"
 
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/pluto"
-	"github.com/soniakeys/sexagesimal"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/pluto"
+	sexa "github.com/soniakeys/sexagesimal"
 )
 
 func ExampleAstrometric() {

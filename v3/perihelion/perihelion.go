@@ -25,9 +25,9 @@ package perihelion
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/interp"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/interp"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 )
 
 // Planet constants for first argument of Perihelion and Aphelion functions.

@@ -1,6 +1,7 @@
 // Copyright 2013 Sonia Keys
 // License: MIT
 
+//go:build !nopp
 // +build !nopp
 
 package solar_test
@@ -8,10 +9,10 @@ package solar_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/julian"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
-	"github.com/soniakeys/meeus/v3/solar"
-	"github.com/soniakeys/sexagesimal"
+	"github.com/jnflint/meeus/v3/julian"
+	pp "github.com/jnflint/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/solar"
+	sexa "github.com/soniakeys/sexagesimal"
 )
 
 func ExampleApparentEquatorialVSOP87() {

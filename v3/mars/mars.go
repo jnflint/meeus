@@ -7,17 +7,18 @@ package mars
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/base"
-	"github.com/soniakeys/meeus/v3/coord"
-	"github.com/soniakeys/meeus/v3/illum"
-	"github.com/soniakeys/meeus/v3/nutation"
-	pp "github.com/soniakeys/meeus/v3/planetposition"
+	"github.com/jnflint/meeus/v3/base"
+	"github.com/jnflint/meeus/v3/coord"
+	"github.com/jnflint/meeus/v3/illum"
+	"github.com/jnflint/meeus/v3/nutation"
+	pp "github.com/jnflint/meeus/v3/planetposition"
 	"github.com/soniakeys/unit"
 )
 
 // Physical computes quantities for physical observations of Mars.
 //
 // Results:
+//
 //	DE  planetocentric declination of the Earth.
 //	DS  planetocentric declination of the Sun.
 //	ω   Areographic longitude of the central meridian, as seen from Earth.

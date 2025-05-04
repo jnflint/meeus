@@ -21,7 +21,7 @@ package coord
 import (
 	"math"
 
-	"github.com/soniakeys/meeus/v3/globe"
+	"github.com/jnflint/meeus/v3/globe"
 	"github.com/soniakeys/unit"
 )
 
@@ -91,6 +91,7 @@ func (eq *Equatorial) EclToEq(ecl *Ecliptic, ε *Obliquity) *Equatorial {
 //	cε: cosine of obliquity of the ecliptic
 //
 // Results:
+//
 //	α: right ascension
 //	δ: declination
 func EclToEq(λ, β unit.Angle, sε, cε float64) (α unit.RA, δ unit.Angle) {

@@ -6,8 +6,8 @@ package binary_test
 import (
 	"fmt"
 
-	"github.com/soniakeys/meeus/v3/binary"
-	"github.com/soniakeys/meeus/v3/kepler"
+	"github.com/jnflint/meeus/v3/binary"
+	"github.com/jnflint/meeus/v3/kepler"
 	"github.com/soniakeys/unit"
 )
 
